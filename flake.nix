@@ -84,7 +84,7 @@
 					};
 					casks = [
 						"1password" "aldente"
-						"betterdisplay" "claude-code" "cursor" "datagrip" "displaylink" "docker-desktop"
+						"betterdisplay" "claude" "claude-code" "cursor" "datagrip" "displaylink" "docker-desktop"
 						"finicky" "font-hasklug-nerd-font" "ghostty" "google-chrome" "insomnia"
 						"maccy" "numi" "postman" "postman-agent" "postman-cli" "rocket" "session-manager-plugin"
 						"shottr" "slack" "visual-studio-code" "vorssaint" "wireshark-app" "nikitabobko/tap/aerospace"

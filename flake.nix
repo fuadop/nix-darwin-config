@@ -7,7 +7,7 @@
 		nix-darwin.inputs.nixpkgs.follows = "nixpkgs";
 	};
 
-	outputs = { nixpkgs, nix-darwin, ... }: 
+	outputs = { nixpkgs, nix-darwin, ... }:
 		let
 			username = "fuad";
 
@@ -53,9 +53,19 @@
 					stateVersion = 7;
 				};
 
+				environment.variables = {
+					EDITOR = "nvim";
+					VISUAL = "nvim";
+				};
+
+				environment.pathsToLink = [ "/share" ];
+
 				environment.systemPackages = with pkgs; [
-					awscli direnv fzf git go neovim python3 stow terraform tmux tree-sitter wget
-					zoxide zsh-autosuggestions zsh-history-substring-search zsh-syntax-highlighting
+					awscli direnv fzf git go
+					neovim nodejs_latest python3 stow
+					terraform tmux tree-sitter wget
+					zoxide zsh-autosuggestions zsh-history-substring-search
+					zsh-syntax-highlighting
 				];
 
 				programs.zsh.enable = true;

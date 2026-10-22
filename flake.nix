@@ -65,7 +65,7 @@
 				environment.pathsToLink = [ "/share" ];
 
 				environment.systemPackages = with pkgs; [
-					awscli direnv fzf git go
+					awscli2 direnv fzf git go
 					neovim nodejs_latest python3 stow
 					terraform tmux tree-sitter wget
 					zoxide zsh-autosuggestions zsh-history-substring-search

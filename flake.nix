@@ -88,6 +88,7 @@
 						"finicky" "font-hasklug-nerd-font" "ghostty" "google-chrome" "insomnia"
 						"maccy" "numi" "postman" "postman-agent" "postman-cli" "rocket" "session-manager-plugin"
 						"shottr" "slack" "visual-studio-code" "vorssaint" "wireshark-app" "nikitabobko/tap/aerospace"
+						"microsoft-word" "microsoft-excel"
 					];
 					# brews = [];
 				};
